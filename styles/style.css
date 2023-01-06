@@ -160,7 +160,7 @@ hr {
 }
 
 .box-2 {
-    
+
     margin-top: 20px;
     margin-bottom: 130px;
     background: rgba(255, 89, 89, 0.1);
@@ -213,4 +213,162 @@ hr {
     margin: 16px 22px 54px 23px;
     font-size: 16px;
     color: #707070;
+}
+
+/* Section-4 styles */
+
+.section-4-1 {
+    display: flex;
+    gap: 83px;
+    margin-left: 156px;
+    margin-bottom: 151px;
+}
+
+.section-4-1-content {
+    width: 493px;
+    height: 374px;
+}
+
+.section-4-1-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.section-4-1-description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+.section-4-1-img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+
+.section-4-2 {
+    display: flex;
+    gap: 83px;
+    padding-left: 156px;
+    margin-bottom: 151px;
+
+
+}
+
+.section-4-2-content {
+    width: 482px;
+    height: 374px;
+}
+
+.section-4-2-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-4-2-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.section-4-2-img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+
+}
+
+/* final-section styles */
+.form1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-desc {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-form {
+    text-align: center;
+    background-color: #fde79f81;
+    margin: 50px 100px 0 100px;
+}
+
+.form-input {
+    padding: 50px 0;
+    gap: 0;
+}
+
+.input-text {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 10px;
+    width: 250px;
+    padding: 20px 20px;
+    background-color: #dad6d6;
+    margin-right: -30px;
+}
+
+.input-button {
+    border: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 0 30px;
+}
+
+.btn-primary-form {
+    color: #ffffff;
+    background-color: #FF5959;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-footer {
+    height: 170px;
+    margin-top: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-tirle {
+    text-align: center;
+    color: #FF5959;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin: 30px 0 0 0;
+}
+
+.footer-section {
+    padding: 40px 0;
 }
